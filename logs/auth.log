@@ -1,0 +1,25 @@
+Sep 28 08:01:12 server01 sshd[1001]: Accepted publickey for alice from 192.168.1.20 port 42110 ssh2
+Sep 28 08:03:45 server01 sshd[1002]: Accepted password for bob from 192.168.1.25 port 42115 ssh2
+
+Sep 28 09:10:11 server01 sshd[1010]: Failed password for alice from 192.168.1.20 port 43100 ssh2
+Sep 28 09:10:24 server01 sshd[1011]: Failed password for alice from 192.168.1.20 port 43101 ssh2
+Sep 28 09:10:39 server01 sshd[1012]: Failed password for alice from 192.168.1.20 port 43102 ssh2
+Sep 28 09:10:52 server01 sshd[1013]: Accepted password for alice from 192.168.1.20 port 43103 ssh2
+
+Sep 28 10:15:01 server01 sshd[1020]: Failed password for admin from 203.0.113.50 port 45001 ssh2
+Sep 28 10:15:08 server01 sshd[1021]: Failed password for test from 203.0.113.50 port 45002 ssh2
+Sep 28 10:15:15 server01 sshd[1022]: Invalid user guest from 203.0.113.50 port 45003
+Sep 28 10:15:22 server01 sshd[1023]: Invalid user oracle from 203.0.113.50 port 45004
+Sep 28 10:15:29 server01 sshd[1024]: Invalid user postgres from 203.0.113.50 port 45005
+
+Sep 28 11:30:10 server01 sshd[1030]: Failed password for root from 198.51.100.40 port 46001 ssh2
+Sep 28 11:30:18 server01 sshd[1031]: Failed password for root from 198.51.100.40 port 46002 ssh2
+Sep 28 11:30:27 server01 sshd[1032]: Failed password for root from 198.51.100.40 port 46003 ssh2
+Sep 28 11:30:36 server01 sshd[1033]: Failed password for root from 198.51.100.40 port 46004 ssh2
+Sep 28 11:30:45 server01 sshd[1034]: Failed password for root from 198.51.100.40 port 46005 ssh2
+Sep 28 11:30:54 server01 sshd[1035]: Failed password for root from 198.51.100.40 port 46006 ssh2
+
+Sep 28 12:45:10 server01 sshd[1040]: Accepted publickey for charlie from 10.0.0.15 port 47001 ssh2
+Sep 28 12:47:31 server01 sshd[1041]: sudo: charlie : TTY=pts/0 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+
+This line is intentionally malformed for parser testing
